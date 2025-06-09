@@ -13,7 +13,7 @@ function Header() {
           <a href="/" className="hover:no-underline">Mahesa Iqbal</a>
         </h1>
         {/* Desktop Nav */}
-        <nav className="hidden sm:flex gap-3">
+        <nav className="hidden sm:flex gap-4">
           <a href="#about" className="px-2 py-2 rounded-md hover:bg-zinc-700 hover:text-white transition">About</a>
           <a href="#experiences" className="px-2 py-2 rounded-md hover:bg-zinc-700 hover:text-white transition">Experiences</a>
           <a href="#projects" className="px-2 py-2 rounded-md hover:bg-zinc-700 hover:text-white transition">Projects</a>

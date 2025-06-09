@@ -13,7 +13,7 @@ function About() {
       />
       <div className="max-w-xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
-        <p className="text-zinc-400">
+        <p className="text-zinc-400 text-justify" style={{ textIndent: '1.3rem' }}>
           As an Android Engineer with 6+ years of hands-on experience in Android
           development, I'm passionate about crafting and building a
           high-quality, scalable, readable, and user-friendly app. My expertise

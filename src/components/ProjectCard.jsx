@@ -25,7 +25,7 @@ function ProjectCard({
       </p>
       <p className="text-md font-semibold mt-2">{platform} platform</p>
       <p className="text-md font-semibold mt-2">{duration}</p>
-      <p className="text-zinc-400 mt-4 text-sm text-justify">{description}</p>
+      <p className="text-zinc-400 mt-4 text-sm text-justify" style={{ textIndent: '1.3rem' }}>{description}</p>
       <div className="tech-stack mt-4">
         {techStacks.map((tech, index) => (
           <span key={index} className="badge">

@@ -11,7 +11,7 @@ function Experience({ title, role, duration, description }) {
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-md font-semibold mt-2">{role}</p>
       <p className="text-md font-semibold mt-2">{duration}</p>
-      <p className="text-zinc-400 mt-4 text-sm text-justify">{description}</p>
+      <p className="text-zinc-400 mt-4 text-sm text-justify" style={{ textIndent: '1.3rem' }}>{description}</p>
     </motion.div>
   );
 }
