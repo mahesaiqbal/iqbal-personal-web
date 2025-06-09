@@ -8,9 +8,9 @@ import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   return (
-    <div className="bg-zinc-900 text-white min-h-screen">
+    <div className="bg-zinc-900 text-white min-h-screen w-full">
       <Header />
-      <main className="max-w-4xl mx-auto px-4 py-8">
+      <main className="w-full max-w-4xl mx-auto px-4 py-8">
         <AnimatePresence mode="wait">
           <motion.div
             initial={{ opacity: 0, y: 10 }}
